@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rowdies:wght@300;400;700&family=Story+Script&display=swap');
+
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        nav{
+            background-color: #233d4d;
+            text-align: center;
+            padding: 30px 0;
+            color: white;
+        }
+
+        .title{
+            font-size: 30px;
+            font-family: 'Rowdies', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .content{
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            font-size: 20px;
+            /* border: solid 2px black; */
+            box-shadow: 0 4px 8px gray;
+            font-family: Arial, Helvetica, sans-serif;;
+            text-align: left;
+            border-radius: 4px;
+        }
+        
+        .content h3{
+            text-decoration: underline;
+        }
+
+        .content .profile{
+            text-align: center;
+        }
+
+        .about, .skills, .contact{
+            margin: 20px 0px;
+            padding: 10px 20px;
+            border-radius: 3px;
+            /* border: solid 2px #233d4d; */
+            border-left: solid 10px #233d4d;
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 8px gray;
+        }
+        
+        .content .profile img{
+            width: 150px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px gray;
+            /* object-position: 72%; */
+        }
+        
+        .content .contact{
+            width: 50%;
+        }
+        
+        .content .contact a{
+            text-decoration: none;
+            color: black;
+            color: rgb(0, 136, 255);
+            transition: all 0.3s ease;
+            font-weight: bold;
+            position: relative;
+            top: 2px;
+        }
+
+        .content .contact a:hover{
+            color: rgb(0, 94, 179);
+            text-decoration: underline;
+        }
+
+        .content .contact img{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        footer{
+            text-align: center;
+            padding: 10px 0;
+            background-color: #233d4d;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="title">
+                Soumya Mishra
+            </div>
+            <span style="font-family: Arial, Helvetica, sans-serif;">Software Developer | Fullstack Developer | Data Scientist</span>
+        </nav>
+
+        <div class="content">
+            <div class="profile">
+                <img src="https://m.media-amazon.com/images/M/MV5BZmY2OGQ4MTAtYTRkMy00NmYxLThlZTktOGE1NTRmNDVlZmI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" draggable="false" alt="Profile Picture">
+            </div>
+            <div class="about">
+                <h3>About Me</h3>
+                <hr>
+                <p>Hello! I'm Soumya Mishra, a passionate software developer with expertise in full-stack development and data science. I love creating innovative solutions and exploring new technologies.</p>
+            </div>
+            
+            <div class="skills">
+                <h3>Skills</h3>
+                <hr>
+                <ul>
+                    <li>Programming Languages: Python, JavaScript, C++</li>
+                    <li>Web Development: HTML, CSS, React, Node.js</li>
+                    <li>Data Science: Pandas, NumPy</li>
+                    <li>Databases: MySQL, MongoDB</li>
+                    <li>Version Control: Git</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Me</h3>
+                <hr>
+                <p>Email: soumyamishra2099@gmail.com</p>
+                <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bGEl9v47XieEtHyj0TqTr1tOXJmib-KHtw&s" alt="linkedin"> <a href="https://www.linkedin.com/in/soumyamishra2099/" target="_blank">Linked In</a></p>
+                <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s" alt="github"> <a href="https://github.com/iamsoumyamishra" target="_blank">Github</a></p>
+            </div>
+        </div>
+        <footer>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; ">&copy; 2024 Soumya Mishra. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
